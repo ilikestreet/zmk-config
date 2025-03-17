@@ -1,4 +1,6 @@
 #include <physical_layouts.dtsi>
+// convert physical layouts
+// https://zmk-physical-layout-converter.streamlit.app/
 
 / {
     eyelash_sofle_layout: eyelash_sofle_layout {
