@@ -1,6 +1,6 @@
-identifier: eyelash_sofle
-name: Eyelash Sofle
-url: https://github.com/a741725193/zmk-sofle
+identifier: sofle_choc
+name: Sofle Choc
+url: https://github.com/ilikestreet/zmk-config
 type: mcu
 arch: arm
 toolchain:

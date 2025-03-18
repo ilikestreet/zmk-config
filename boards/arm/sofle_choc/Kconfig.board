@@ -3,10 +3,10 @@
 # SPDX-License-Identifier: MIT
 #
 
-config BOARD_EYELASH_SOFLE_LEFT
-    bool "eyelash_sofle left"
+config BOARD_SOFLE_CHOC_LEFT
+    bool "sofle_choc left"
     depends on SOC_NRF52840_QIAA
 
-config BOARD_EYELASH_SOFLE_RIGHT
-    bool "eyelash_sofle right"
+config BOARD_SOFLE_CHOC_RIGHT
+    bool "sofle_choc right"
     depends on SOC_NRF52840_QIAA

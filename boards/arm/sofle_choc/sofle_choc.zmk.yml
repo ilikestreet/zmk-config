@@ -1,0 +1,15 @@
+file_format: "1"
+id: sofle_choc
+name: Sofle Choc
+url: https://github.com/ilikestreet/zmk-config
+type: board
+arch: arm
+features:
+  - keys
+  - display
+outputs:
+  - usb
+  - ble
+siblings:
+  - sofle_choc_left
+  - sofle_choc_right
