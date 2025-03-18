@@ -9,5 +9,11 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: eyelash_sofle
+      url: https://github.com/ilikestreet/zmk-config
+      revision: main
+    - name: mario-peripheral-animation
+      remote: gpeye
+      revision: main
   self:
     path: config
