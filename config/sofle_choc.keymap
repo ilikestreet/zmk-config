@@ -15,7 +15,8 @@
 #define UPPER 1
 #define RGB 2
 
-#define MO_TOG(layer) &mo_tog layer layer   // Macro to apply momentary-layer-on-hold/toggle-layer-on-tap to a specific layer
+#define MO_TOG(layer) &mo_tog layer layer   
+// Macro to apply momentary-layer-on-hold/toggle-layer-on-tap to a specific layer
 
 / {
 
