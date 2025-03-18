@@ -28,4 +28,4 @@ include:
   - board: sofle_choc_left
     shield: nice_view
   - board: sofle_choc_right
-    shield: nice_view_gem
+    shield: nice_view_custom
