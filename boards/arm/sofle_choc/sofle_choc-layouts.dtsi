@@ -3,7 +3,7 @@
 // https://zmk-physical-layout-converter.streamlit.app/
 
 / {
-    eyelash_sofle_layout: eyelash_sofle_layout {
+    sofle_choc_layout: sofle_choc_layout {
         compatible = "zmk,physical-layout";
         display-name = "Layout";
         transform = <&default_transform>;

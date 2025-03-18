@@ -13,8 +13,8 @@
 #include "sofle_choc-layouts.dtsi"
 
 / {
-    model = "eyelash_sofle";
-    compatible = "eyelashperipherals,eyelash_sofle";
+    model = "sofle_choc_sofle";
+    compatible = "sofle_choc";
 
     chosen {
         zephyr,code-partition = &code_partition;
@@ -23,7 +23,7 @@
         zmk,kscan = &kscan0;
         zmk,battery = &vbatt;
         zmk,underglow = &led_strip;
-        zmk,physical-layout = &eyelash_sofle_layout;
+        zmk,physical-layout = &sofle_choc_layout;
         zmk,backlight = &backlight;
     };
 

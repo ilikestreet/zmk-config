@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 #
 
-if BOARD_EYELASH_SOFLE_LEFT
+if BOARD_SOFLE_CHOC_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Sofle Choc"
@@ -11,10 +11,10 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif # BOARD_EYELASH_SOFLE_LEFT
+endif # BOARD_SOFLE_CHOC_LEFT
 
 
-if BOARD_EYELASH_SOFLE_LEFT || BOARD_EYELASH_SOFLE_RIGHT
+if BOARD_SOFLE_CHOC_LEFT || BOARD_SOFLE_CHOC_RIGHT
 
 config BOARD
     default "sofle_choc"
@@ -23,13 +23,13 @@ config BOARD_ENABLE_DCDC
     bool "Enable DCDC mode"
     select SOC_DCDC_NRF52X
     default y
-    depends on (BOARD_EYELASH_SOFLE_LEFT || BOARD_EYELASH_SOFLE_RIGHT)
+    depends on (BOARD_SOFLE_CHOC_LEFT || BOARD_SOFLE_CHOC_RIGHT)
 
 config BOARD_ENABLE_DCDC_HV
     bool "Enable High Voltage DCDC converter"
     default y
     select SOC_DCDC_NRF52X_HV
-    depends on (BOARD_EYELASH_SOFLE_LEFT || BOARD_EYELASH_SOFLE_RIGHT)
+    depends on (BOARD_SOFLE_CHOC_LEFT || BOARD_SOFLE_CHOC_RIGHT)
 
 config ZMK_SPLIT
     default y
@@ -88,4 +88,4 @@ config LED_PWM
 
 endif # ZMK_BACKLIGHT
 
-endif # BOARD_EYELASH_SOFLE_LEFT || BOARD_EYELASH_SOFLE_RIGHT
+endif # BOARD_SOFLE_CHOC_LEFT || BOARD_SOFLE_CHOC_RIGHT
