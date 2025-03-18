@@ -12,8 +12,8 @@ manifest:
     - name: eyelash_sofle
       url: https://github.com/ilikestreet/zmk-config
       revision: main
-    - name: mario-peripheral-animation
-      remote: gpeye
-      revision: main
+    - name: nice-view-gem #new entry
+      remote: m165437 #new entry
+      revision: main #new entry
   self:
     path: config
