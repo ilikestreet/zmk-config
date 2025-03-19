@@ -6,7 +6,7 @@
 if BOARD_SOFLE_CHOC_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Sofle Choc"
+    default "Sofle Choc @jz"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

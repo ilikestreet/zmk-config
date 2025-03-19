@@ -1,6 +1,6 @@
 file_format: "1"
 id: sofle_choc
-name: Sofle Choc
+name: Sofle Choc @jz
 url: https://github.com/ilikestreet/zmk-config
 type: board
 arch: arm
