@@ -91,21 +91,21 @@
         rgb {
             display-name = "rgb";
             bindings = <
-//    ┌───────────┬──────────┬──────────┬──────────┬───────────┬──────────┐       ┌─────┬─────┬─────┬──────┬──────┬──────┐
-//    │  bt_clr   │ bt_sel 0 │ bt_sel 1 │ bt_sel 2 │ bt_sel 3  │ bt_sel 4 │       │     │     │     │      │      │ volu │
-//    ├───────────┼──────────┼──────────┼──────────┼───────────┼──────────┤       ├─────┼─────┼─────┼──────┼──────┼──────┤
-//    │ epwr_ tog │ ug_ hu-  │ ug_ hu+  │ ug_ sa-  │  ug_ sa+  │ ug_ eff  │       │     │     │     │      │      │ vold │
-//    ├───────────┼──────────┼──────────┼──────────┼───────────┼──────────┤       ├─────┼─────┼─────┼──────┼──────┼──────┤
-//    │           │ ug_ br-  │ ug_ br+  │          │           │          │       │     │     │     │      │      │ mute │
-//    ├───────────┼──────────┼──────────┼──────────┼───────────┼──────────┤       ├─────┼─────┼─────┼──────┼──────┼──────┤
-//    │           │          │          │          │           │ ug_ tog  │       │     │     │     │ prev │ play │ next │
-//    └───────────┼──────────┼──────────┼──────────┼───────────┼──────────┤       ├─────┼─────┼─────┼──────┼──────┼──────┘
-//                │          │          │          │ to QWERTY │          │       │     │     │     │      │      │
-//                └──────────┴──────────┴──────────┴───────────┴──────────┘       └─────┴─────┴─────┴──────┴──────┘
+//    ┌────────────┬──────────┬──────────┬──────────┬───────────┬──────────┐       ┌─────┬─────┬─────┬──────┬──────┬──────┐
+//    │   bt_clr   │ bt_sel 0 │ bt_sel 1 │ bt_sel 2 │ bt_sel 3  │ bt_sel 4 │       │     │     │     │      │      │ volu │
+//    ├────────────┼──────────┼──────────┼──────────┼───────────┼──────────┤       ├─────┼─────┼─────┼──────┼──────┼──────┤
+//    │ bt_clr_ALL │  bt_prv  │  bt_nxt  │          │           │          │       │     │     │     │      │      │ vold │
+//    ├────────────┼──────────┼──────────┼──────────┼───────────┼──────────┤       ├─────┼─────┼─────┼──────┼──────┼──────┤
+//    │ epwr_ tog  │ ug_ hu-  │ ug_ hu+  │ ug_ sa-  │  ug_ sa+  │ ug_ eff  │       │     │     │     │      │      │ mute │
+//    ├────────────┼──────────┼──────────┼──────────┼───────────┼──────────┤       ├─────┼─────┼─────┼──────┼──────┼──────┤
+//    │  ug_ tog   │ ug_ br-  │ ug_ br+  │          │           │          │       │     │     │     │ prev │ play │ next │
+//    └────────────┼──────────┼──────────┼──────────┼───────────┼──────────┤       ├─────┼─────┼─────┼──────┼──────┼──────┘
+//                 │          │          │          │ to QWERTY │          │       │     │     │     │      │      │
+//                 └──────────┴──────────┴──────────┴───────────┴──────────┘       └─────┴─────┴─────┴──────┴──────┘
   &bt BT_CLR          &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4              &none   &none   &none   &none        &none      &kp C_VOL_UP
-  &ext_power EP_TOG   &rgb_ug RGB_HUD   &rgb_ug RGB_HUI   &rgb_ug RGB_SAD   &rgb_ug RGB_SAI   &rgb_ug RGB_EFF           &none   &none   &none   &none        &none      &kp C_VOL_DN
-  &none               &rgb_ug RGB_BRD   &rgb_ug RGB_BRI   &none             &none             &none                     &none   &none   &none   &none        &none      &kp C_MUTE
-  &none               &none             &none             &none             &none             &rgb_ug RGB_TOG           &none   &none   &none   &kp C_PREV   &kp C_PP   &kp C_NEXT
+  &bt BT_CLR_ALL      &bt BT_PRV        &bt BT_NXT        &none             &none             &none                     &none   &none   &none   &none        &none      &kp C_VOL_DN
+  &ext_power EP_TOG   &rgb_ug RGB_HUD   &rgb_ug RGB_HUI   &rgb_ug RGB_SAD   &rgb_ug RGB_SAI   &rgb_ug RGB_EFF           &none   &none   &none   &none        &none      &kp C_MUTE
+  &rgb_ug RGB_TOG     &rgb_ug RGB_BRD   &rgb_ug RGB_BRI   &none             &none             &none                     &none   &none   &none   &kp C_PREV   &kp C_PP   &kp C_NEXT
                       &none             &none             &none             &to QWERTY        &none                     &none   &none   &none   &none        &none
             >;
         };
